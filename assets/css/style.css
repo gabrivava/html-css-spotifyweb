@@ -36,19 +36,14 @@ body {
 .main {
     width: calc(100vw - 230px);
     background-color: #141922;
-    position: relative;
 }
 /* upgrade */
 #upgrade {
     background-color: black;
     filter: opacity(0.5);
-    position: absolute;
     /* altezza */
     height: 90px;
     width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 2;
 }
 
 /* larghezza */
