@@ -21,8 +21,8 @@ body {
     min-height: calc(100vh - 90px);
     background-color: black;
 }
-#sidebar .visible_sm,
-#sidebar .visible_md {
+.visible_sm,
+.visible_md {
     display: none;
 }
 #sidebar ul>li.active {
@@ -40,17 +40,17 @@ body {
     font-size: 1.2rem;
 }
 #sidebar .playlist .overflowy {
-    overflow-y: auto;
+    overflow-y: visible;
     max-height: 400px;
     background-color: #ADFF2F;
 }
 #sidebar .playlist ul>li {
     padding-left: 0;
 }
-/* player */
 
+
+/* player */
 #player {
-    /* altezza */
     height: 90px;
     background-color: #282828;
     width: 100vw;
@@ -58,6 +58,7 @@ body {
     bottom: 0;
     right: 0;
 }
+
 /******** main ******** */
 .main {
     width: calc(100vw - 230px);
@@ -97,7 +98,7 @@ body {
     #sidebar {
         width: 50px;
     }
-    #sidebar .visible_sm {
+    .visible_sm {
         display: block;
     }
     #sidebar ul>li.active {
@@ -112,7 +113,7 @@ body {
 }
 @media screen and (min-width: 569px) {
     /* #sidebar */
-    #sidebar .visible_md {
+    .visible_md {
         display: block;
     }
     #sidebar ul>li {
