@@ -39,7 +39,14 @@ body {
 #sidebar .new_playlist span {
     font-size: 1.2rem;
 }
-#sidebar .playlist ul
+#sidebar .playlist .overflowy {
+    overflow-y: auto;
+    max-height: 400px;
+    background-color: #ADFF2F;
+}
+#sidebar .playlist ul>li {
+    padding-left: 0;
+}
 /* player */
 
 #player {
