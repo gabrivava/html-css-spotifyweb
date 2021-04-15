@@ -1,17 +1,23 @@
+/* utility */
 body {
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-color: #141922;
+    
 }
+
+/* sidebar */
+
 #sidebar {
     width: 230px;
     min-height: calc(100vh - 90px);
-    background-color: blue;
-    position: absolute;
-    left: 0;
-    top: 0;
+    background-color: black;
+
 }
+
+
+/* player */
+
 #player {
     /* altezza */
     height: 90px;
@@ -21,14 +27,44 @@ body {
     bottom: 0;
     right: 0;
 }
+/******** main ******** */
+.main {
+    width: calc(100vw - 230px);
+    background-color: #141922;
+    position: relative;
+}
+/* upgrade */
 #upgrade {
     background-color: black;
     filter: opacity(0.5);
     position: absolute;
     /* altezza */
     height: 90px;
-    width: calc(100vw - 230px);
+    width: 100%;
     top: 0;
     right: 0;
     z-index: 2;
+}
+
+/* larghezza */
+.larghezza {
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 568px) {
+    #sidebar {
+        width: 50px;
+    }
+    .main {
+        width: calc(100vw - 50px);
+    }
+}
+@media screen and (min-width: 569px) {
+    .logo {
+        display: block;
+        width: 80%;
+    }
+    
 }
