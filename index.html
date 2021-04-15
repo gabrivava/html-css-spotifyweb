@@ -16,11 +16,32 @@
         
     <div class="larghezza">
         <!-- sidebar -->
-        <div id="sidebar">
-            <div class="logo p-3">
-                <img src="./assets/img/logo.svg" alt="">
+        <div id="sidebar" class="d-flex flex-column">
+
+            <!-- logo spotify -->
+            <div class="logo p-3 visible_md">
+                <img src="./assets/img/logo.svg" alt="logo spotify">
             </div>
-                
+
+            <!-- menu verticale -->
+            <div class="visible_sm p-2">
+                <img src="./assets/img/logo-small.svg" alt="logo spotify piccolo">
+            </div>
+            <ul class="list-unstyled">
+                <li class="d-flex align-items-center">
+                    <img class="m-2" src="./assets/img/home.svg" alt="home">
+                    <span class="visible_md">Home</span>
+                </li>
+                <li class="d-flex align-items-center">
+                    <img class="m-2" src="./assets/img/search.svg" alt="lente d'ingrandimento">
+                    <span class="visible_md">Cerca</span>
+                </li>
+                <li class="d-flex align-items-center">
+                    <img class="m-2"src="./assets/img/libreria.svg" alt="libreria">
+                    <span class="visible_md">La tua libreria</span>
+                </li>
+            </ul>  
+
         </div>
         <div class="main">
             <!-- upgrade -->

@@ -2,8 +2,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    position: relative;
-    
+    position: relative;   
 }
 
 /* sidebar */
@@ -12,7 +11,13 @@ body {
     width: 230px;
     min-height: calc(100vh - 90px);
     background-color: black;
-
+}
+#sidebar .visible_sm,
+#sidebar .visible_md {
+    display: none;
+}
+#sidebar ul>li img {
+    height: 33px;
 }
 
 
@@ -57,14 +62,26 @@ body {
     #sidebar {
         width: 50px;
     }
+    #sidebar .visible_sm {
+        display: block;
+    }
+
     .main {
         width: calc(100vw - 50px);
     }
+    
 }
 @media screen and (min-width: 569px) {
-    .logo {
+    /* #sidebar */
+    #sidebar .visible_md {
         display: block;
+    }
+    #sidebar ul {
+        padding-left: 1rem;
+    }
+    .logo {
         width: 80%;
     }
+    
     
 }
