@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #141922;
+}
+#sidebar {
+    width: 230px;
+    min-height: calc(100vh - 90px);
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#player {
+    /* altezza */
+    height: 90px;
+    background-color: #282828;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#upgrade {
+    background-color: black;
+    filter: opacity(0.5);
+    position: absolute;
+    /* altezza */
+    height: 90px;
+    width: calc(100vw - 230px);
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
