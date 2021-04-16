@@ -134,6 +134,11 @@ body {
     padding-top: 90px;
     overflow-y: auto;
 }
+.ac-brdr {
+    width: 40px;
+    margin: 0 auto;
+    border-bottom: 3px solid #ADFF2F;
+}
 /* upgrade */
 #upgrade {
     background-color: rgba(0, 0, 0, 0.5);
