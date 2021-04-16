@@ -90,6 +90,7 @@ body {
     position: fixed;
     bottom: 0;
     right: 0;
+    z-index: 3;
 }
 #player img {
     height: 40px;
@@ -140,8 +141,7 @@ body {
     border-bottom: 3px solid #ADFF2F;
 }
 .main .container-fluid .row [class*="col-"] {
-    min-width: 200px;
-    max-width: 250px;
+    min-width: 170px;
 }
 .main .container-fluid .row .artisti {
     border-radius: 50%;
@@ -153,6 +153,7 @@ body {
     height: 90px;
     width: calc(100vw - 230px);
     position: fixed;
+    z-index: 2;
 }
 #upgrade button {
     border: 1px solid white;
