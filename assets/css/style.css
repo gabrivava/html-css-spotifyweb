@@ -149,7 +149,7 @@ body {
 
 
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 575px) {
     #sidebar {
         width: 50px;
     }
@@ -169,7 +169,7 @@ body {
         width: 100%;
     }
 }
-@media screen and (min-width: 569px) {
+@media screen and (min-width: 576px) {
     /* #sidebar */
     .visible_md {
         display: block;
