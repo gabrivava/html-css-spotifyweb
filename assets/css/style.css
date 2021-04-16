@@ -106,7 +106,7 @@ body {
 #player .barra_player > div{
     background-color: #5A5A5A;
     height: 3px;
-    width: 80%;
+    width: 75%;
     border-radius: 2px;
 }
 #player .barra_player > div > .avanzamento {
@@ -155,9 +155,6 @@ body {
     }
     .visible_sm {
         display: block;
-    }
-    .visible_md {
-        display: none;
     }
     #sidebar ul>li.active {
         border: none;
