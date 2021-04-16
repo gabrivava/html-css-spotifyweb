@@ -97,6 +97,23 @@ body {
 #player .artist {
     line-height: 0.7rem;
 }
+#player .fa-play-circle {
+    font-size: 30px;
+}
+#player .fas {
+    font-size: 17px;
+}
+#player .barra_player > div{
+    background-color: #5A5A5A;
+    height: 3px;
+    width: 80%;
+    border-radius: 2px;
+}
+#player .barra_player > div > .avanzamento {
+    background-color: white;
+    width: 20%;
+    height: 100%;
+}
 
 /******** main ******** */
 .main {
@@ -151,6 +168,9 @@ body {
     .main {
         width: calc(100vw - 50px);
     }
+    #player .col-4.d-flex {
+        width: 100%;
+    }
 }
 @media screen and (min-width: 569px) {
     /* #sidebar */
@@ -169,6 +189,5 @@ body {
 @media screen and (max-width: 768px) {
     #player .icone {
         flex-direction: column;
-
     }
 }
