@@ -100,8 +100,11 @@ body {
 #player .fa-play-circle {
     font-size: 30px;
 }
-#player .fas {
+#player .col-sm-4 .fas {
     font-size: 17px;
+}
+#player .col-4 .fas {
+    font-size: 15px;
 }
 #player .barra_player > div{
     background-color: #5A5A5A;
@@ -109,10 +112,16 @@ body {
     width: 75%;
     border-radius: 2px;
 }
-#player .barra_player > div > .avanzamento {
+#player .barra_player > div > .avanzamento,
+#player .volume > div > .avanzamento {
     background-color: white;
     width: 20%;
     height: 100%;
+}
+#player .volume div {
+    background-color: #5A5A5A;
+    height: 3px;
+    width: 30%;
 }
 
 /******** main ******** */
