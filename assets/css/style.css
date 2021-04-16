@@ -1,7 +1,7 @@
 /* utility */
 body {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: relative;   
 }
 
@@ -128,6 +128,9 @@ body {
     }
     .visible_sm {
         display: block;
+    }
+    .visible_md {
+        display: none;
     }
     #sidebar ul>li.active {
         border: none;
