@@ -5,7 +5,9 @@ body {
     position: relative; 
     overflow: hidden; 
 }
-
+.font_size_08 {
+    font-size: 0.8rem;
+}
 /* colori */
 .grey_1 {
     background-color: #A3A3A3;
@@ -92,6 +94,9 @@ body {
 #player img {
     height: 40px;
 }
+#player .artist {
+    line-height: 0.7rem;
+}
 
 /******** main ******** */
 .main {
@@ -160,4 +165,10 @@ body {
     }
     
     
+}
+@media screen and (max-width: 768px) {
+    #player .icone {
+        flex-direction: column;
+
+    }
 }
