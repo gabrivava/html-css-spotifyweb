@@ -139,7 +139,7 @@ body {
     margin: 0 auto;
     border-bottom: 3px solid #ADFF2F;
 }
-.main .container-fluid .row .col {
+.main .container-fluid .row [class*="col-"] {
     min-width: 200px;
     max-width: 250px;
 }
