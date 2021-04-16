@@ -143,8 +143,8 @@ body {
     min-width: 200px;
     max-width: 250px;
 }
-.main .container-fluid .row .col .album {
-    
+.main .container-fluid .row .artisti {
+    border-radius: 50%;
 }
 /* upgrade */
 #upgrade {
