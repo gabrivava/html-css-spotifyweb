@@ -57,8 +57,8 @@ body {
 #sidebar .installa_app>div {
     border: 1px solid #a09e9e;
     border-radius: 50%;
-    height: 20px;
-    width: 20px;
+    height: 17px;
+    width: 17px;
     padding: 2px;
 }
 #sidebar .installa_app .fa-arrow-down {
@@ -69,7 +69,13 @@ body {
     border-top: 1px solid #717171;
     margin: 0;
 }
-#sidebar 
+#sidebar .immagine_profilo {
+    width: 30px;
+    height: 30px;
+    background-color: #717171;
+    border-radius: 50%;
+    overflow: hidden;
+}
 
 /* player */
 #player {
