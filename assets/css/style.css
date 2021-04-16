@@ -39,15 +39,37 @@ body {
 #sidebar .new_playlist span {
     font-size: 1.2rem;
 }
+#sidebar .playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 330px)
+}
 #sidebar .playlist .overflowy {
-    overflow-y: visible;
-    max-height: 400px;
-    background-color: #ADFF2F;
+    overflow: auto;
 }
 #sidebar .playlist ul>li {
     padding-left: 0;
 }
-
+#sidebar .installa_app {
+    margin-top: auto;
+}
+#sidebar .installa_app>div {
+    border: 1px solid #a09e9e;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+}
+#sidebar .installa_app .fa-arrow-down {
+    font-size: 13px;
+}
+#sidebar hr {
+    width: 100%;
+    border-top: 1px solid #717171;
+    margin: 0;
+}
+#sidebar 
 
 /* player */
 #player {
