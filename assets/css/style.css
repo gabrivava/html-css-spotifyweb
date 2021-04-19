@@ -135,8 +135,9 @@ body {
     padding-top: 90px;
     overflow-y: auto;
 }
-.main .nav li a:hover {
+.over_white:hover {
     color: white;
+    cursor: pointer;
 }
 .ac-brdr {
     width: 40px;
