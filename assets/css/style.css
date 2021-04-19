@@ -132,7 +132,7 @@ body {
     border-radius: 50%;
     /* display: none; */
 }
-#player .volume div {
+#player .volume > div {
     background-color: #5A5A5A;
     height: 3px;
     width: 30%;
