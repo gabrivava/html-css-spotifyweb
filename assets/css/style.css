@@ -119,10 +119,32 @@ body {
     width: 20%;
     height: 100%;
 }
+#player .barra_player:hover .avanzamento {
+  background-color: #ADFF2F;
+}
+#player .barra_player:hover .ball {
+    display: block;
+}
+.ball {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    /* display: none; */
+}
 #player .volume div {
     background-color: #5A5A5A;
     height: 3px;
     width: 30%;
+}
+#player .volume > div:hover .avanzamento {
+    background-color: #ADFF2F;
+}
+#player .volume > div:hover .ball {
+    display: block;
+}
+#player .fa-play-circle:hover {
+    font-size: 2rem;
 }
 
 /******** main ******** */
