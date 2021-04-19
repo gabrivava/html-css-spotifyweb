@@ -135,6 +135,9 @@ body {
     padding-top: 90px;
     overflow-y: auto;
 }
+.main .nav li a:hover {
+    color: white;
+}
 .ac-brdr {
     width: 40px;
     margin: 0 auto;
@@ -195,6 +198,11 @@ body {
 }
 
 
+@media screen and (max-width: 420px) {
+    .main .container-fluid .row .col-6 {
+        min-width: 100%;
+    }
+}
 
 @media screen and (max-width: 575px) {
     #sidebar {
