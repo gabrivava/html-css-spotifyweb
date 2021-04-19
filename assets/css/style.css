@@ -140,6 +140,27 @@ body {
     margin: 0 auto;
     border-bottom: 3px solid #ADFF2F;
 }
+.main .album {
+    cursor: pointer;
+}
+.main .album .img {
+    position: relative;
+}
+.main .album .img .play {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .album:hover .img .play {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* .main .container-fluid .row [class*="col-"] {
     min-width: 170px;
 } */
