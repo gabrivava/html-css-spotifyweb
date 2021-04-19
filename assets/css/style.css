@@ -140,9 +140,9 @@ body {
     margin: 0 auto;
     border-bottom: 3px solid #ADFF2F;
 }
-.main .container-fluid .row [class*="col-"] {
+/* .main .container-fluid .row [class*="col-"] {
     min-width: 170px;
-}
+} */
 .main .container-fluid .row .artisti {
     border-radius: 50%;
 }
@@ -154,15 +154,19 @@ body {
     width: calc(100vw - 230px);
     position: fixed;
     z-index: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 #upgrade button {
     border: 1px solid white;
-    position: absolute;
-    right: 0;
-    top: 0;
     border-radius: 30px;
     padding: 0.8rem 2.7rem;
 }
+#upgrade button:hover {
+    padding: 1rem 3rem;
+}
+
 
 /* larghezza */
 .larghezza {
